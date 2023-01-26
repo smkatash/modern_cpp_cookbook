@@ -54,9 +54,9 @@ struct foo {
 struct bar {
 	foo	f;
 
-	// bar(foo const& val) {
+	bar(foo const& val) {
 	// 	f = val;
-	// }
+	}
 	// Order in case of assignment
 	// default constructor
 	// default constructor
